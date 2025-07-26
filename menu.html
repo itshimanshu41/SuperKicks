@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Products - Super Kicks</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="Super Kicks" width="200px">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active">Products</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="login.html" class="login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Products Header -->
+    <section class="products-header">
+        <div class="container">
+            <h1>All Products</h1>
+            <p>Discover our premium collection of sneakers</p>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <!-- Filters and Sort -->
+            <div class="products-controls">
+                <div class="filters">
+                    <button class="filter-btn active" data-category="all">All</button>
+                    <button class="filter-btn" data-category="nike">Nike</button>
+                    <button class="filter-btn" data-category="adidas">Adidas</button>
+                    <button class="filter-btn" data-category="jordan">Jordan</button>
+                    <button class="filter-btn" data-category="yeezy">Yeezy</button>
+                </div>
+                <div class="sort-controls">
+                    <select id="sortSelect" class="sort-select">
+                        <option value="default">Default sorting</option>
+                        <option value="price-low">Price: Low to High</option>
+                        <option value="price-high">Price: High to Low</option>
+                        <option value="name">Name: A to Z</option>
+                        <option value="rating">Sort by Rating</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Products Grid -->
+            <div class="products-grid" id="productsGrid">
+                <!-- Products will be loaded here dynamically -->
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active" data-page="1">1</button>
+                <button class="page-btn" data-page="2">2</button>
+                <button class="page-btn" data-page="3">3</button>
+                <button class="page-btn" data-page="4">4</button>
+                <button class="page-btn next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h2>How may we help you?</h2>
+            <ul>
+                <a href="#"><li>Contact Us</li></a>
+                <a href="#"><li>My Order</li></a>
+                <a href="#"><li>FAQS</li></a>
+                <a href="#"><li>Email Unsubscribe</li></a>
+                <a href="#"><li>Site Map</li></a>
+            </ul>
+        </div>
+
+        <div>
+            <h2>The Company</h2>
+            <ul>
+                <a href="#"><li>About us</li></a>
+                <a href="#"><li>Code of ethics</li></a>
+                <a href="#"><li>Careers</li></a>
+                <a href="#"><li>Legal</li></a>
+            </ul>
+        </div>
+
+        <div>
+            <h2>Super Kicks Services</h2>
+            <ul>
+                <a href="#"><li>Discover Our Services</li></a>
+                <a href="#"><li>Book an appointment</li></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="menu.js"></script>
+</body>
+</html>

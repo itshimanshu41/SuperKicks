@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Super Kicks</title>
+    <link rel="stylesheet" href="menu.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <h2>Super Kicks</h2>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="menu.html" class="nav-link active">Products</a>
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <div class="search-container">
+                    <input type="text" id="searchInput" placeholder="Search sneakers...">
+                    <button type="button" id="searchBtn">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+                <a href="cart.html" class="cart-btn">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="login.html" class="login-btn">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Single Product Section -->
+    <section class="single-product-section">
+        <div class="container single-product">
+            <div class="single-product-row">
+                <div class="single-product-gallery">
+                    <img src="img/product-1.jpg" id="productImg" class="main-product-img" alt="Air Force 1 '07 LVB">
+                    <div class="small-img-row">
+                        <div class="small-img-col"><img src="img/product-airforce1.png" class="small-img" alt="1"></div>
+                        <div class="small-img-col"><img src="img/product-airforce2.png" class="small-img" alt="2"></div>
+                        <div class="small-img-col"><img src="img/product-airforce3.png" class="small-img" alt="3"></div>
+                        <div class="small-img-col"><img src="img/product-airforce4.png" class="small-img" alt="4"></div>
+                    </div>
+                </div>
+                <div class="single-product-details">
+                    <nav class="breadcrumb">Home / Shoes</nav>
+                    <h1 class="product-title">Air Force 1 '07 LVB</h1>
+                    <div class="product-price">$50.00</div>
+                    <div class="product-options">
+                        <select>
+                            <option>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <input type="number" value="1" min="1" style="width: 60px; margin-left: 10px;">
+                    </div>
+                    <a href="cart.html" class="btn add-to-cart-btn">Add to Cart</a>
+                    <h3 class="product-details-title">Product Details <i class="fa fa-indent"></i></h3>
+                    <p class="product-description">As fresh as ever, one of the all-time favourite Michael Jordan game shoes is now a prized player off the court. The Air Jordan 5 Retro matches the unbeatable look of the 1990 classic with a fit that's been updated for comfort.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Related Products -->
+    <section class="related-products-section">
+        <div class="container">
+            <div class="row row-2">
+                <h2>Related Products</h2>
+                <a href="menu.html"><p>View More</p></a>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <a href="airmax97.html">
+                        <div class="product-image"><img src="img/product-11.jpg" alt="Nike Air Max 97 Off-White Menta"></div>
+                        <div class="product-info">
+                            <h4 class="product-title">Nike Air Max 97 Off-White Menta</h4>
+                            <div class="product-rating"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i><i class="far fa-star"></i></div></div>
+                            <p class="product-price">$150.00</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="jumpman.html">
+                        <div class="product-image"><img src="img/product-2.jpg" alt="JUMP MAN MVP Sp."></div>
+                        <div class="product-info">
+                            <h4 class="product-title">JUMP MAN MVP Sp.</h4>
+                            <div class="product-rating"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></div></div>
+                            <p class="product-price">$1135.00</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="airmax97.html">
+                        <div class="product-image"><img src="img/product-3.jpg" alt="Nike Air Max '97"></div>
+                        <div class="product-info">
+                            <h4 class="product-title">Nike Air Max '97</h4>
+                            <div class="product-rating"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></div></div>
+                            <p class="product-price">$1225.00</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="product-card">
+                    <a href="force1high.html">
+                        <div class="product-image"><img src="img/product-10.jpg" alt="Nike Air Force 1 High Sheed Sample"></div>
+                        <div class="product-info">
+                            <h4 class="product-title">Nike Air Force 1 High Sheed Sample</h4>
+                            <div class="product-rating"><div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i><i class="far fa-star"></i></div></div>
+                            <p class="product-price">$4118.00</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div>
+            <h2>How may we help you?</h2>
+            <ul>
+                <a href="#"><li>Contact Us</li></a>
+                <a href="#"><li>My Order</li></a>
+                <a href="#"><li>FAQS</li></a>
+                <a href="#"><li>Email Unsubscribe</li></a>
+                <a href="#"><li>Site Map</li></a>
+            </ul>
+        </div>
+        <div>
+            <h2>The Company</h2>
+            <ul>
+                <a href="#"><li>About us</li></a>
+                <a href="#"><li>Code of ethics</li></a>
+                <a href="#"><li>Careers</li></a>
+                <a href="#"><li>Legal</li></a>
+            </ul>
+        </div>
+        <div>
+            <h2>Super Kicks Services</h2>
+            <ul>
+                <a href="#"><li>Discover Our Services</li></a>
+                <a href="#"><li>Book an appointment</li></a>
+            </ul>
+        </div>
+    </footer>
+
+    <script>
+    // Product gallery auto/manual switching
+    const productImg = document.getElementById('productImg');
+    const smallImgs = document.querySelectorAll('.small-img');
+    let currentImageIndex = 0;
+    let autoSlideInterval;
+
+    function switchImage(index) {
+        currentImageIndex = index;
+        productImg.src = smallImgs[index].src;
+        smallImgs.forEach((img, i) => {
+            img.style.opacity = i === index ? '1' : '0.7';
+            img.style.border = i === index ? '2px solid #007bff' : '2px solid transparent';
+        });
+        resetAutoSlide();
+    }
+
+    smallImgs.forEach((img, idx) => {
+        img.onclick = () => switchImage(idx);
+    });
+
+    function startAutoSlide() {
+        autoSlideInterval = setInterval(() => {
+            currentImageIndex = (currentImageIndex + 1) % smallImgs.length;
+            switchImage(currentImageIndex);
+        }, 3000);
+    }
+    function resetAutoSlide() {
+        clearInterval(autoSlideInterval);
+        startAutoSlide();
+    }
+    document.addEventListener('DOMContentLoaded', function() {
+        switchImage(0);
+        startAutoSlide();
+        const gallery = document.querySelector('.single-product-gallery');
+        gallery.addEventListener('mouseenter', () => clearInterval(autoSlideInterval));
+        gallery.addEventListener('mouseleave', () => startAutoSlide());
+    });
+    </script>
+</body>
+</html>

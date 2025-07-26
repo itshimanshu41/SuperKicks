@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.product {
+    display: flex;
+    gap: 40px;
+}
+
+.productInformation>.name>h4 {
+    color: rgb(148, 147, 147);
+}
+
+.productInformation>.sizes {
+    background-color: bisque;
+    border-radius: 5px;
+    padding: 10px;
+    margin-block: 20px;
+    height: fit-content;
+}
+
+.productInformation>.sizes>.grid {
+    display: grid;
+    grid-template-columns: 120px 120px 120px;
+    row-gap: 20px;
+    text-align: center;
+}
+
+.productInformation>.sizes>.grid>div {
+    border: 1px solid;
+    border-color: rgb(171, 173, 173);
+    background-color: azure;
+    padding: 10px;
+    border-radius: 5px;
+    width: 80px;
+}
